@@ -1,0 +1,41 @@
+package com.in28Minutes.learnspringframework;
+
+import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Configuration;
+
+
+record Person(String name, int age) {};
+record Address(String firstline, String secondLine) {};
+
+
+@Configuration
+public class HelloWorldConfiguration {
+	
+	@Bean
+	public String name() {
+		return "Kiran";
+	}
+	
+	@Bean
+	public int age() {
+		return 29;
+	}
+	
+	@Bean
+	public Person person() {
+		return new Person("Jadhav", 30);
+	}
+	
+	@Bean(name="adress2") //customize bean name 
+	public Address adress() {
+		return new Address("osho rachna","New Panvel");
+	}
+	
+	@Bean(name="adress2") //customize bean name 
+	public Address adress() {
+		return new Address("osho rachna","New Panvel");
+	}
+	
+	
+
+}

@@ -1,0 +1,14 @@
+package com.in28Minutes.learnspringframework;
+
+import org.springframework.context.annotation.AnnotationConfigApplicationContext;
+
+public class App02HelloWorldSpring {
+
+	public static void main(String[] args) {
+		//launch spring context
+		var context=new AnnotationConfigApplicationContext(HelloWorldConfiguration.class);
+
+		//Configure the things that we want spring to manage.@configuration
+		context.getBean("name");
+	}
+}

@@ -1,0 +1,34 @@
+package com.in28Minutes.learnspringframework;
+
+import org.springframework.context.annotation.AnnotationConfigApplicationContext;
+import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Configuration;
+
+import com.in28Minutes.learnspringframework.game.GameRunner;
+import com.in28Minutes.learnspringframework.game.GamingConsol;
+import com.in28Minutes.learnspringframework.game.PacManGame;
+
+
+@Configuration
+public class App03GamingSpringBeans { //launcher class	
+	@Bean
+	public GamingConsol game(){
+		var game=new PacManGame();
+		return game;
+	}
+
+	@Bean
+	public GameRunner gameRunner(GamingConsol game) {
+		var gameRunner=new GameRunner(game);
+		return gameRunner;
+	}	
+
+
+	public static void main(String[] args) {
+		try(	var context=new	AnnotationConfigApplicationContext(App03GamingSpringBeans.class))
+		{	
+			context.getBean(GamingConsol.class).up();
+			context.getBean(GameRunner.class).run();
+		}
+	}
+}

@@ -1,0 +1,9 @@
+
+•
+java:S1488"bImmediately return this expression instead of assigning it to the temporary variable "gameRunner".(µèëÿ8—ÍĞ—ù0HäRMINORZ
+CODE_SMELL
+Š	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(­£êôşÿÿÿÿH¥RMINORZ
+CODE_SMELL
+”
+java:S1488"\Immediately return this expression instead of assigning it to the temporary variable "game".(âÕ¾ıÿÿÿÿ8Ó‘ —ù0HÎRMINORZ
+CODE_SMELL

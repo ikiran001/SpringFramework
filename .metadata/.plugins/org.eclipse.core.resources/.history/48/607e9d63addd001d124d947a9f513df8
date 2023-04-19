@@ -1,0 +1,25 @@
+package com.in28Minutes.learnspringframework;
+
+import org.springframework.context.annotation.AnnotationConfigApplicationContext;
+
+import com.in28Minutes.learnspringframework.game.GameRunner;
+import com.in28Minutes.learnspringframework.game.GamingConsol;
+import com.in28Minutes.learnspringframework.game.MarioGame;
+import com.in28Minutes.learnspringframework.game.PacManGame;
+import com.in28Minutes.learnspringframework.game.SuperContraGame;
+
+public class App03GamingSpringBeans {
+
+	public static void main(String[] args) {
+var context=new	AnnotationConfigApplicationContext(GamingConfiguration.class);	
+context.getBean(GamingConsol.class).up();
+		
+//		var superContraGame=new SuperContraGame();
+//		var marioGame=new MarioGame();
+//		var pacmanGame=new PacManGame();
+//		var gameRunner =new GameRunner(pacmanGame);
+//		gameRunner.run();
+//		
+	}
+
+}

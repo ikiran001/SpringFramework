@@ -1,0 +1,11 @@
+package com.in28Minutes.learnspringframework.examples.C1;
+
+public class MangoDBDataService implements DataService {
+
+	@Override
+	public int[] retriveData() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

@@ -1,0 +1,17 @@
+
+k	java:S106"9Replace this use of System.out or System.err by a logger.(éœ®¦8Ø¸ñôø0H™RMAJORZ
+CODE_SMELL
+p	java:S106"9Replace this use of System.out or System.err by a logger.(ßªö•úÿÿÿÿ8üÍ°ôø0HâRMAJORZ
+CODE_SMELL
+k	java:S106"9Replace this use of System.out or System.err by a logger.(¿¥‚Ç8î€šôø0H¿RMAJORZ
+CODE_SMELL
+k	java:S106"9Replace this use of System.out or System.err by a logger.(ÛÌ¤í8“ôø0H¶RMAJORZ
+CODE_SMELL
+k	java:S106"9Replace this use of System.out or System.err by a logger.(¢Ş8©çôø0HˆRMAJORZ
+CODE_SMELL
+p	java:S106"9Replace this use of System.out or System.err by a logger.(ƒº¥µúÿÿÿÿ8üÍ°ôø0HãRMAJORZ
+CODE_SMELL
+Š	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(­£êôşÿÿÿÿH™RMINORZ
+CODE_SMELL
+j	java:S106"9Replace this use of System.out or System.err by a logger.(¤®“X8¡öšõø0HÚRMAJORZ
+CODE_SMELL

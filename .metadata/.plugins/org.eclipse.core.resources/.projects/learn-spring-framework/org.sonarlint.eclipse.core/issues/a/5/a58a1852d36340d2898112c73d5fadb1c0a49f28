@@ -1,0 +1,15 @@
+
+n
+java:S1854"=Remove this useless assignment to local variable "marioGame".(α°ΆωÿÿÿÿHΰRMAJORZ
+CODE_SMELL
+t
+java:S1854"CRemove this useless assignment to local variable "superContraGame".(¨ªωÿÿÿÿHαRMAJORZ
+CODE_SMELL
+	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(­£κτώÿÿÿÿHβRMINORZ
+CODE_SMELL
+e
+java:S1481"4Remove this unused "superContraGame" local variable.(¨ªωÿÿÿÿHγRMINORZ
+CODE_SMELL
+_
+java:S1481".Remove this unused "marioGame" local variable.(α°ΆωÿÿÿÿHεRMINORZ
+CODE_SMELL

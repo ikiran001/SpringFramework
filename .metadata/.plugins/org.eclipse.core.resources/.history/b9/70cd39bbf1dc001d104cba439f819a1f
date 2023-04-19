@@ -1,0 +1,10 @@
+package com.in28Minutes.learnspringframework;
+
+public class App02HelloWorldSpring {
+
+	public static void main(String[] args) {
+
+		
+	}
+
+}
