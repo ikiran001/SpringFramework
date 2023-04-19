@@ -1,11 +1,24 @@
 
-p	java:S1069"9Replace this use of System.out or System.err by a logger.(ƒÚÍøÿÿÿÿ8•ËĞ™ù0HéRMAJORZ
+…	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Ì ãëH‰RMINORZ
 CODE_SMELL
-k	java:S106"9Replace this use of System.out or System.err by a logger.(İœøß8…Îã™ù0HëRMAJORZ
+s	java:S125"<This block of commented-out lines of code should be removed.(µÏÀÚøÿÿÿÿ8Ş ô™ù0H‹RMAJORZ
 CODE_SMELL
-s	java:S125"<This block of commented-out lines of code should be removed.(µÏÀÚøÿÿÿÿ8Ş ô™ù0HîRMAJORZ
+p	java:S106="9Replace this use of System.out or System.err by a logger.(ƒÚÍøÿÿÿÿ8Æ÷™ù0H’RMAJORZ
 CODE_SMELL
-…	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Ì ãëHäRMINORZ
+p	java:S106?"9Replace this use of System.out or System.err by a logger.(¡Èƒúşÿÿÿÿ8şÄÀù0H­RMAJORZ
 CODE_SMELL
-p	java:S1068"9Replace this use of System.out or System.err by a logger.(ªÿŸ—úÿÿÿÿ8Æ÷™ù0HƒRMAJORZ
+k	java:S106"9Replace this use of System.out or System.err by a logger.(İœøß8…Îã™ù0HˆRMAJORZ
+CODE_SMELL
+‰
+java:S1128"VRemove this unused import 'org.springframework.beans.factory.annotation.Configurable'.(ïÜğş8ÅµºÀù0HšRMINORZ
+CODE_SMELL
+p	java:S106@"9Replace this use of System.out or System.err by a logger.(¡Èƒúşÿÿÿÿ8şÄÀù0H®RMAJORZ
+CODE_SMELL
+k	java:S106A"9Replace this use of System.out or System.err by a logger.(ØìƒŸ8şÄÀù0H¯RMAJORZ
+CODE_SMELL
+p	java:S106>"9Replace this use of System.out or System.err by a logger.(¡Èƒúşÿÿÿÿ8ÈØÄÀù0H¤RMAJORZ
+CODE_SMELL
+p	java:S106<"9Replace this use of System.out or System.err by a logger.(ªÿŸ—úÿÿÿÿ8•ËĞ™ù0HŠRMAJORZ
+CODE_SMELL
+k	java:S106B"9Replace this use of System.out or System.err by a logger.(ØìƒŸ8•çÆÀù0HÂRMAJORZ
 CODE_SMELL
